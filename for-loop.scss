@@ -1,0 +1,6 @@
+$unit:px;
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: (24 - 3 * $i)#{$unit};
+    }
+}
